@@ -15,8 +15,8 @@ ggplot() +
   scale_x_discrete() +
   scale_y_continuous() +
 #  facet_wrap(~CLARITY, ncol=1) +
-  labs(title='Barchart') +
-  labs(x=paste("TeamID"), y=paste("AB/HR")) +
+  labs(title='Power Hitting by Team') +
+  labs(x=paste("TeamID"), y=paste("At bats per homerun")) +
   layer(data=ndf, 
         mapping=aes(x=TEAMID, y=value), 
         stat="identity", 
