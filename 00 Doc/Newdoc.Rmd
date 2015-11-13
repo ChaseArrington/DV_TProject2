@@ -13,6 +13,10 @@ One of the most historic period in baseball was the HR battles of the late 90s. 
 
 ![](../02 Tableau/Scatterplot.png)
 
+```{r}
+source("../01 Data/scatterplot.R", echo = TRUE)
+```
+
 
 ###Bar chart
 
@@ -20,7 +24,20 @@ Our Bar Chart shows how many at bats, on average, each team in the MLB has betwe
 
 ![](../02 Tableau/Bar chart.png)
 
+```{r}
+source("../01 Data/barchart.R", echo = TRUE)
+```
+
+###Blended data
+In this graph, we blended the data for baseball batting and salary stats. Our visualization shows on base percentage, a metric used to determine a players offensive capabilities, and player salaries. As you can see, there is a correlation between salary and obp. There are also many outliers. Some of the highest paid players have very low on base percentages. Those players are pitchers. They get paid for the pithcing ability and not ther offensive capabilities.
+
+![](../02 Tableau/Blended data.png)
+
 ###Cross Tab
 Our cross tab shows each players average per season on base percentage for the Texas rangers. On base percentage is a KPI we created that demonstrates how effective a player is at getting on base. To create the on base percentage we used this formula (Hits + walks + times hit by pitch) / (At bats + walks + times hit by pitch + sacrifice flies). OBP is a good indicator of how a players offensive capabilities
 
 ![](../02 Tableau/Crosstab.png)
+
+```{r}
+source("../01 Data/boxplot.R", echo = TRUE)
+```
