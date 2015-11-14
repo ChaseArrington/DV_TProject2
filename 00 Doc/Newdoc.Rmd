@@ -39,5 +39,5 @@ Our cross tab shows each players average per season on base percentage for the T
 ![](../02 Tableau/Crosstab.png)
 
 ```{r}
-source("../01 Data/boxplot.R", echo = TRUE)
+source("../01 Data/crosstab.R", echo = TRUE)
 ```
